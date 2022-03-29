@@ -21,9 +21,9 @@
   },
   "homepage": "https://github.com/YoshiyukiKato/grpc-mock#readme",
   "dependencies": {
+    "@grpc/grpc-js": "^1.5.10",
     "@grpc/proto-loader": "^0.3.0",
-    "grpc": "^1.17.0",
-    "grpc-kit": "^0.2.0",
+    "grpc-kit": "github:ErwinDB/grpc-kit",
     "partial-compare": "^1.0.1"
   },
   "devDependencies": {
