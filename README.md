@@ -1,10 +1,9 @@
 # grpc-mock
-[![npm version](https://badge.fury.io/js/grpc-mock.svg)](https://badge.fury.io/js/grpc-mock)
 
 A simple mock gRPC server on Node.js.
 
 ```js
-const {createMockServer} = require("grpc-mock");
+const {createMockServer} = require("@ptibv/grpc-mock-js");
 const mockServer = createMockServer({
   protoPath: "/path/to/greeter.proto",
   packageName: "greeter",

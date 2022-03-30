@@ -1,6 +1,6 @@
 {
-  "name": "grpc-mock",
-  "version": "0.7.0",
+  "name": "@ptibv/grpc-mock-js",
+  "version": "0.0.0",
   "description": "a simple grpc mock server",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YoshiyukiKato/grpc-mock.git"
+    "url": "git+https://github.com/ptibv/grpc-mock-js.git"
   },
   "keywords": [
     "grpc",
@@ -17,13 +17,13 @@
   "author": "YoshiyukiKato",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/YoshiyukiKato/grpc-mock/issues"
+    "url": "https://github.com/ptibv/grpc-mock-js/issues"
   },
-  "homepage": "https://github.com/YoshiyukiKato/grpc-mock#readme",
+  "homepage": "https://github.com/ptibv/grpc-mock-js#readme",
   "dependencies": {
     "@grpc/grpc-js": "^1.5.10",
     "@grpc/proto-loader": "^0.3.0",
-    "grpc-kit": "github:ErwinDB/grpc-kit",
+    "@ptibv/grpc-kit-js": "github:ptibv/grpc-kit-js#v0.2.0",
     "partial-compare": "^1.0.1"
   },
   "devDependencies": {

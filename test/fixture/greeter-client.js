@@ -1,6 +1,6 @@
 const {promisify} = require("util");
 const path = require("path");
-const {createClient} = require("grpc-kit");
+const {createClient} = require("@ptibv/grpc-kit-js");
 
 const client = createClient({
   protoPath: path.resolve(__dirname, "./greeter.proto"),
